@@ -79,7 +79,7 @@ class MyCallbacks1: public BLECharacteristicCallbacks {
         Serial.println("*********");
 
 
-        clickNow = atoi(rxValue.c_str());
+        numberOfImages = atoi(rxValue.c_str());
 
         Serial.print("numberOfImages is :");
         Serial.println(numberOfImages);
